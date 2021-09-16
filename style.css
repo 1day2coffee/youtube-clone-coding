@@ -28,6 +28,10 @@ body {
   font-family: Roboto;
 }
 
+button {
+  background-color: transparent;
+}
+
 ul {
   list-style: none;
 }
@@ -92,6 +96,10 @@ body > .info {
   margin-right: var(--padding);
 }
 
+.info .metadata .titleAndButton {
+  display: flex;
+}
+
 .info .metadata .titleAndButton .title {
   font-size: var(--font-medium);
   display: -webkit-box;
@@ -105,7 +113,7 @@ body > .info {
   height: 100%;
 }
 
-.info .views {
+.info .metadata .views {
   font-size: var(--font-small);
   color: var(--grey-dark-color);
 }
@@ -128,7 +136,7 @@ body > .info {
 
 .info .actions button i {
   margin: 0 auto;
-  margin-bottom: clac(var(--padding) / 2);
+  margin-bottom: calc(var(--padding) / 2);
   font-size: 16px;
 }
 
@@ -143,6 +151,7 @@ body > .info {
   justify-content: space-between;
   border-top: 1px solid var(--grey-light-color);
   border-bottom: 1px solid var(--grey-light-color);
+  padding: calc(var(--padding) / 2) 0;
 }
 
 .info .channel .metadata {
@@ -178,6 +187,7 @@ body > .info {
 
 .upNext {
   padding: 0 var(--padding);
+  margin: 0;
 }
 
 .upNext > .title {
@@ -212,8 +222,23 @@ body > .info {
   font-size: var(--font-medium);
 }
 
+.upNext .item .info .name {
+  font-size: var(--font-small);
+  color: var(--grey-dark-color);
+  padding: calc(var(--padding) / 3) 0;
+}
+
+.upNext .item .info .views {
+  font-size: var(--font-small);
+  color: var(--grey-dark-color);
+}
+
 .upNext .item .moreButton {
   flex: 1 1 5%;
+}
+
+.upNext .item .moreButton i {
+  height: 100%;
 }
 
 .upNext .item .info {
@@ -224,6 +249,7 @@ body > .info {
 .infoAndUpnext {
   display: flex;
   flex-direction: column;
+  margin: var(--padding);
 }
 
 @media screen and (min-width: 768px) {
