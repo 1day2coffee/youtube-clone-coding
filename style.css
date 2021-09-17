@@ -184,9 +184,9 @@ body > .info {
 
 .info .channel .subcribe {
   text-transform: uppercase;
-  background-color: var(--red-color);
+  background-color: #c00;
   color: var(--white-color);
-  padding: 3% 3%;
+  padding: 2% 2%;
   font-weight: 600;
 }
 
