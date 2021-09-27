@@ -90,7 +90,7 @@ header .logo sup {
 
 /* info */
 
-body > .info {
+body .container .infoAndComments .info {
   padding: var(--padding);
 }
 
@@ -202,7 +202,7 @@ body > .info {
 /* upnext */
 
 .upNext {
-  padding: 0 var(--padding);
+  padding: var(--padding);
   margin: 0;
 }
 
@@ -271,12 +271,11 @@ body > .info {
 /* comments */
 
 .comments {
-  padding: 0 var(--padding);
+  padding: var(--padding);
   margin: 0;
 }
 
 .comments .metadata {
-  padding: calc(var(--padding) / 2) 0;
   font-size: var(--font-medium);
 }
 
@@ -375,12 +374,26 @@ body > .info {
   margin-right: var(--padding);
 }
 
-/* @media screen and (min-width: 768px) {
-  .infoAndUpnext {
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.container:nth-child(1){
+  order: 1;
+}
+
+.container:nth-child(2){
+  order: 3;
+}
+
+.container:nth-child(2){
+  order: 2;
+}
+
+
+@media screen and (min-width: 768px) {
+  .container{
     flex-direction: row;
   }
-
-  .upNext {
-    margin: var(--padding) 0;
-  }
-} */
+}

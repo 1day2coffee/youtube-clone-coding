@@ -1,166 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
-    <script src="main.js" defer></script>
-    <script
-      src="https://kit.fontawesome.com/7797558685.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>YOUTUBE Mobile</title>
-  </head>
-  <body>
-    <!-- header -->
-    <header>
-      <div class="logo">
-        <i class="fab fa-youtube"></i><span class="title">Premium</span
-        ><sup>KR</sup>
-      </div>
-      <div class="icons">
-        <i class="fas fa-search"></i><i class="fas fa-ellipsis-v"></i>
-      </div>
-    </header>
 
-    <!-- player -->
-    <section class="player">
-      <video controls src="./videos/sample.mp4"></video>
-    </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+  <script src="main.js" defer></script>
+  <script src="https://kit.fontawesome.com/7797558685.js" crossorigin="anonymous"></script>
+  <title>YOUTUBE Mobile</title>
+</head>
 
-    <div class="infoAndUpnext">
-      <!-- video info -->
-      <section class="info">
-        <div class="metadata">
-          <ul class="hashtag">
-            <li>#gowix</li>
-            <li>#extension</li>
-            <li>#radiologist</li>
-          </ul>
+<body>
+  <!-- header -->
+  <header>
+    <div class="logo">
+      <i class="fab fa-youtube"></i><span class="title">Premium</span><sup>KR</sup>
+    </div>
+    <div class="icons">
+      <i class="fas fa-search"></i><i class="fas fa-ellipsis-v"></i>
+    </div>
+  </header>
 
-          <div class="titleAndButton">
-            <span class="title clamp"
-              >GoWIX :) | 확장프로그램 GoWIX Extension 출시기념 설치 및 적용
-              가이드 | GoWIX 따라하기, GoWIX 가이드, 이렇게 편할수가.. |
-              스마트케어웍스 주식회사 | [04559] 서울특별시 중구 창경궁로 6
-              부성빌딩 1201 SmartCareworks Inc. | Connect, Not install | Support
-              Modern Web browsers such as Google Chrome and Microsoft
-              Edge.</span
-            >
-            <button class="moreButton">
-              <i class="fas fa-caret-down"></i>
-            </button>
-          </div>
-          <span class="views">조회수 1억회 · 1개월 전</span>
+  <!-- player -->
+  <section class="player">
+    <video controls src="./videos/sample.mp4"></video>
+  </section>
 
-          <!-- action buttons -->
-          <ul class="actions">
-            <li>
-              <button>
-                <i class="active fas fa-thumbs-up"></i><span>1백만</span>
-              </button>
-            </li>
-            <li>
-              <button><i class="fas fa-thumbs-down"></i><span>10</span></button>
-            </li>
-            <li>
-              <button><i class="fas fa-share"></i><span>Share</span></button>
-            </li>
-            <li>
-              <button><i class="fas fa-plus"></i><span>Save</span></button>
-            </li>
-            <li>
-              <button>
-                <i class="fab fa-font-awesome-flag"></i><span>Report</span>
-              </button>
-            </li>
-          </ul>
+  <div class="container">
+    <!-- video info -->
+    <div class="infoAndComments">
+    <section class="info">
+      <div class="metadata">
+        <ul class="hashtag">
+          <li>#gowix</li>
+          <li>#extension</li>
+          <li>#radiologist</li>
+        </ul>
 
-          <div class="channel">
-            <div class="metadata">
-              <img src="./images/avatar.ico" alt="" />
-              <div class="info">
-                <span class="name">SmartCareWorks</span>
-                <span class="subscribers">151만 명</span>
-              </div>
-            </div>
-
-            <button class="subcribe">subscribe</button>
-          </div>
+        <div class="titleAndButton">
+          <span class="title clamp">GoWIX :) | 확장프로그램 GoWIX Extension 출시기념 설치 및 적용
+            가이드 | GoWIX 따라하기, GoWIX 가이드, 이렇게 편할수가.. |
+            스마트케어웍스 주식회사 | [04559] 서울특별시 중구 창경궁로 6
+            부성빌딩 1201 SmartCareworks Inc. | Connect, Not install | Support
+            Modern Web browsers such as Google Chrome and Microsoft
+            Edge.</span>
+          <button class="moreButton">
+            <i class="fas fa-caret-down"></i>
+          </button>
         </div>
-      </section>
+        <span class="views">조회수 1억회 · 1개월 전</span>
 
-      <!-- up Next -->
-      <section class="upNext">
-        <span class="title">up next</span>
-        <ul>
-          <li class="item">
-            <div class="img"><img src="./images/sample1.png" alt="" /></div>
-            <div class="info">
-              <span class="title"
-                >SMCW | 스마트케어웍스 홈페이지 단장완료! 구경오세요~ |
-                SmartCareWorks Web Site, SmartCareWorks, GoWIX, GoStitching,
-                GoDR | 스마트케어웍스 주식회사 | [04559] 서울특별시 중구
-                창경궁로 6 부성빌딩 1201 SmartCareworks Inc. | Connect, Not
-                install | Support Modern Web browsers such as Google Chrome and
-                Microsoft Edge.
-              </span>
-              <span class="name">SmartCareWorks</span>
-              <span class="views">조회수 2백만 회 · 그저께</span>
-            </div>
-            <button class="moreButton">
-              <i class="fas fa-caret-down"></i>
+        <!-- action buttons -->
+        <ul class="actions">
+          <li>
+            <button>
+              <i class="active fas fa-thumbs-up"></i><span>1백만</span>
             </button>
           </li>
-
-          <li class="item">
-            <div class="img"><img src="./images/sample2.png" alt="" /></div>
-            <div class="info">
-              <span class="title"
-                >GoWIX | 세상에서 제일 쉬운 GoWIX 회원가입 가이드. 쉽다쉬워~ |
-                GoWIX sign-up guide, SmartCareWorks, GoWIX, GoStitching, GoDR |
-                스마트케어웍스 주식회사 | [04559] 서울특별시 중구 창경궁로 6
-                부성빌딩 1201 SmartCareworks Inc. | Connect, Not install |
-                Support Modern Web browsers such as Google Chrome and Microsoft
-                Edge.
-              </span>
-              <span class="name">SmartCareWorks</span>
-              <span class="views">조회수 4백만 회 · 3일전</span>
-            </div>
-            <button class="moreButton">
-              <i class="fas fa-caret-down"></i>
-            </button>
+          <li>
+            <button><i class="fas fa-thumbs-down"></i><span>10</span></button>
           </li>
-
-          <li class="item">
-            <div class="img"><img src="./images/sample3.png" alt="" /></div>
-            <div class="info">
-              <span class="title"
-                >ERROR | 502 Bad Gateway 에려 해결 가이드! 이것만 보면 관련된
-                모든 에러해결 가능! | help error, SmartCareWorks, GoWIX,
-                GoStitching, GoDR | 스마트케어웍스 주식회사 | [04559] 서울특별시
-                중구 창경궁로 6 부성빌딩 1201 SmartCareworks Inc. | Connect, Not
-                install | Support Modern Web browsers such as Google Chrome and
-                Microsoft Edge.
-              </span>
-              <span class="name">SmartCareWorks</span>
-              <span class="views">조회수 1천만 회 · 1개월 전</span>
-            </div>
-            <button class="moreButton">
-              <i class="fas fa-caret-down"></i>
+          <li>
+            <button><i class="fas fa-share"></i><span>Share</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-plus"></i><span>Save</span></button>
+          </li>
+          <li>
+            <button>
+              <i class="fab fa-font-awesome-flag"></i><span>Report</span>
             </button>
           </li>
         </ul>
-      </section>
-    </div>
 
+        <div class="channel">
+          <div class="metadata">
+            <img src="./images/avatar.ico" alt="" />
+            <div class="info">
+              <span class="name">SmartCareWorks</span>
+              <span class="subscribers">151만 명</span>
+            </div>
+          </div>
+
+          <button class="subcribe">subscribe</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- comments -->
     <section class="comments">
       <div class="metadata">
         <span class="count">1 Comments</span>
@@ -182,10 +113,9 @@
           <span id="pinComment">대한민국 정부</span>
           <span class="commentTime">3일 전</span>
           <i class="fas fa-check-circle fa-xs"></i>
-          <span class="paragraph"
-            >대한민국 정부 공식 유튜브 계정입니다. 정부는 주식회사
+          <span class="paragraph">대한민국 정부 공식 유튜브 계정입니다. 정부는 주식회사
             스마트케어웍스의 기술력을 높이 평가하고 있습니다. 차기 의료고도화
-            시스템을 위한 프레임 워크에 GoWIX가 포함되었음을 알려드립니다.
+            시스템 선정에 GoWIX가 포함되었음을 알려드립니다.
           </span>
           <div class="thumb">
             <i class="far fa-thumbs-up"></i>
@@ -200,9 +130,7 @@
         <div class="metadata">
           <span class="userID">박진영</span>
           <span class="commentTime">일주일 전</span>
-          <span class="paragraph"
-            >이렇게 유용한 기능이 나오다니!! 너무 좋군요</span
-          >
+          <span class="paragraph">이렇게 유용한 기능이 나오다니!! 너무 좋군요</span>
           <div class="thumb">
             <i class="far fa-thumbs-up"></i>
             <i class="far fa-thumbs-down"></i>
@@ -217,9 +145,7 @@
           <span class="userID">Apple</span>
           <span class="commentTime">2주 전</span>
           <i class="fas fa-check-circle fa-xs"></i>
-          <span class="paragraph"
-            >This is amazing function! we love it and contact us please!</span
-          >
+          <span class="paragraph">This is amazing function! we love it and contact us please!</span>
           <div class="thumb">
             <i class="far fa-thumbs-up"></i>
             <i class="far fa-thumbs-down"></i>
@@ -243,5 +169,68 @@
         </div>
       </div>
     </section>
-  </body>
+  </div>
+
+    <!-- up Next -->
+    <section class="upNext">
+      <span class="title">up next</span>
+      <ul>
+        <li class="item">
+          <div class="img"><img src="./images/sample1.png" alt="" /></div>
+          <div class="info">
+            <span class="title">SMCW | 스마트케어웍스 홈페이지 단장완료! 구경오세요~ |
+              SmartCareWorks Web Site, SmartCareWorks, GoWIX, GoStitching,
+              GoDR | 스마트케어웍스 주식회사 | [04559] 서울특별시 중구
+              창경궁로 6 부성빌딩 1201 SmartCareworks Inc. | Connect, Not
+              install | Support Modern Web browsers such as Google Chrome and
+              Microsoft Edge.
+            </span>
+            <span class="name">SmartCareWorks</span>
+            <span class="views">조회수 2백만 회 · 그저께</span>
+          </div>
+          <button class="moreButton">
+            <i class="fas fa-caret-down"></i>
+          </button>
+        </li>
+
+        <li class="item">
+          <div class="img"><img src="./images/sample2.png" alt="" /></div>
+          <div class="info">
+            <span class="title">GoWIX | 세상에서 제일 쉬운 GoWIX 회원가입 가이드. 쉽다쉬워~ |
+              GoWIX sign-up guide, SmartCareWorks, GoWIX, GoStitching, GoDR |
+              스마트케어웍스 주식회사 | [04559] 서울특별시 중구 창경궁로 6
+              부성빌딩 1201 SmartCareworks Inc. | Connect, Not install |
+              Support Modern Web browsers such as Google Chrome and Microsoft
+              Edge.
+            </span>
+            <span class="name">SmartCareWorks</span>
+            <span class="views">조회수 4백만 회 · 3일전</span>
+          </div>
+          <button class="moreButton">
+            <i class="fas fa-caret-down"></i>
+          </button>
+        </li>
+
+        <li class="item">
+          <div class="img"><img src="./images/sample3.png" alt="" /></div>
+          <div class="info">
+            <span class="title">ERROR | 502 Bad Gateway 에려 해결 가이드! 이것만 보면 관련된
+              모든 에러해결 가능! | help error, SmartCareWorks, GoWIX,
+              GoStitching, GoDR | 스마트케어웍스 주식회사 | [04559] 서울특별시
+              중구 창경궁로 6 부성빌딩 1201 SmartCareworks Inc. | Connect, Not
+              install | Support Modern Web browsers such as Google Chrome and
+              Microsoft Edge.
+            </span>
+            <span class="name">SmartCareWorks</span>
+            <span class="views">조회수 1천만 회 · 1개월 전</span>
+          </div>
+          <button class="moreButton">
+            <i class="fas fa-caret-down"></i>
+          </button>
+        </li>
+      </ul>
+    </section>
+  </div>
+</body>
+
 </html>
